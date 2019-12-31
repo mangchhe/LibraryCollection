@@ -4,7 +4,7 @@ from textblob import Word
 wiki = TextBlob('until further notice')
 print(wiki.correct())
 
-w = Word('emphasizes')
+w = Word('repective')
 
 print(w.spellcheck())
 print(len(w.spellcheck()))

@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 
 while True:
-
+    
     excelFileName = input('엑셀 파일 입력하세요 : ')
 
     try:
@@ -9,6 +9,7 @@ while True:
     except FileNotFoundError as err:
         print('맞지 않는 파일 이름')
         continue
+
 
     days = input('일차 입력 : ')
 
