@@ -1,6 +1,4 @@
-openpyxl/venv
-textblob/venv
-matplotlib/venv
+venv/
 
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
